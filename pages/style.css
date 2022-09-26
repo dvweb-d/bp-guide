@@ -1,0 +1,172 @@
+@font-face {
+  font-family: Stanberry-Regular;
+  src: url(../Stanberry.ttf);
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  background-color: #3d4353;
+  color: #a5b4c7;
+  font-family: "Stanberry-Regular";
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 750px;
+
+  text-align: center;
+  overflow: auto;
+  justify-content: center;
+
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.header {
+  padding-bottom: 20px;
+
+
+}
+
+.champface {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.skill_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10%;
+  margin-bottom: 20%;
+
+}
+
+/* tab experiment */
+
+.tab {
+  overflow: hidden;
+  border: 5px solid #388C77;
+  background-color: #d5fce0;
+  margin: 0px;
+}
+
+
+.tab button {
+  background-color: inherit;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: .4s;
+}
+
+.tab button:hover {
+  background-color: #388C77;
+  color: rgb(255, 255, 255);
+}
+
+.tab button:hover:nth-child(2) {
+  background-color: #f2e043;
+}
+
+.tab button:hover:nth-child(3) {
+  background-color: rgb(239, 7, 91);
+
+
+}
+
+.tab button:hover:nth-child(4) {
+  background-color: rgb(30, 217, 224);
+}
+
+.tab button:hover:nth-child(5) {
+  background-color: rgb(4, 236, 36);
+}
+
+.tab button:hover:nth-child(6) {
+  background-color: rgb(2, 6, 173);
+
+}
+
+.tab button.active {
+  background-color: #388C77;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+
+}
+
+.tablinks {
+  font-weight: 700;
+}
+
+/* tab experiment end */
+
+
+.passive,
+.q,
+.w,
+.e {
+  margin-top: 30px;
+
+}
+
+
+img {
+  border: 1px solid #a5b4c7;
+}
+
+
+ul {
+  list-style-type: none;
+  gap: 20px;
+}
+
+
+.egg {
+  color: #3d4353;
+}
+
+a:link {
+  color: #899aaf;
+}
+
+a:visited {
+  color: #899aaf;
+}
+
+a:hover {
+  color: white;
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.builds li {
+  margin: 40px 0;
+
+}
+
+.disc img {
+  max-width: 20px;
+  max-height: 20px;
+  border: 0px;
+}
+
+.about {
+  padding: 10px;
+}

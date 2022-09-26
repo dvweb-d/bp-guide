@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Stanberry-Regular;
+    src: url(./Stanberry.ttf)
+}
+
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1000px;
+    font-family: "Stanberry-Regular";
+    font-size: 18px;
+    
+}
+
+footer {
+    margin-top: .6%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    
+}
+
+
+
+footer a:nth-child(2) {
+    margin-left: auto;
+
+}
+
+
+
+
+.indexpagewrap{
+    background-color: #459186;
+    padding: 30px;
+    max-width: fit-content;
+}
+
+.indexpage {
+    background-color: #2a5c80;
+    border-radius: 25px;
+    max-width: fit-content;
+    
+
+}
+
+
+.icon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr  ;
+    padding: 30px;
+    gap: 5px;
+    
+}
+.icon-container img,
+.randombutton {
+    
+    border: 3px solid #4aaec3;
+    
+
+}
+
+.randombutton {
+    transform: translate(415%, 0);
+}
+
+
+
+
